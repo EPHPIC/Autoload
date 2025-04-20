@@ -1,0 +1,22 @@
+{
+    "name": "ephpic/autoload",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Sina Kuhestani",
+            "email": "sinakuhestani@gmail.com"
+        }
+    ],
+    "description": "A simple autoloader for PHP applications.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "EPHPIC\\Autoload\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require" : {
+        "php": ">=5.6"
+    }
+}
